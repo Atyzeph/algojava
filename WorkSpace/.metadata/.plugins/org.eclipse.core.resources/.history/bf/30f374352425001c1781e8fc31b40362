@@ -1,0 +1,9 @@
+package fr.boucles;
+
+public class ExerciceBoucleBase {
+	public static void main(String[] args) {
+		for (int nb = 0; nb <= 10; nb++) {
+			System.out.println(nb);
+		}
+	}
+}

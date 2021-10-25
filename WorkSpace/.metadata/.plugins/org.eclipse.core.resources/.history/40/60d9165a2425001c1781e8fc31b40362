@@ -1,0 +1,16 @@
+package fr.boucles;
+
+public class ExerciceBoucleBase {
+	public static void main(String[] args) {
+		
+		// Nombres de 0 à 10
+		for (int nb = 0; nb <= 10; nb++) {
+			System.out.println(nb);
+		}
+		
+		// Affichage nom et prénom
+		for (int name = 0; name <= 20; name++) {
+			System.out.println(name + " - Bennetot Clément");
+		}
+	}
+}

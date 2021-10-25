@@ -1,0 +1,12 @@
+package fr.boucles;
+
+public class ExerciceBouclesEtTests {
+	public static void main(String[] args) {
+
+		
+		// Afficher dans l'ordre inverse
+		for (int i = array.length; i <= array.length-1; i-- ) {
+			System.out.println(array[i]);
+	}
+	}
+}

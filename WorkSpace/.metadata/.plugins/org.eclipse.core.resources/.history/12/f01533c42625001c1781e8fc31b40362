@@ -1,0 +1,19 @@
+
+public class ExerciceTableauEntier {
+
+	public static void main(String[] args) {
+		byte var1 = 1;
+		short var2 = 2;
+		int var3 = 3;
+		long var4 = 4L;
+		float var5 = 5.5F;
+		double var6 = 66;
+		char var7 = 'a';
+		boolean var8 = false;
+		String var9 = "Hello world !";
+		System.out.println(var9);
+		System.out.println(var5);
+		System.out.println(var8);
+	}
+
+}

@@ -1,0 +1,7 @@
+package fr.boucles;
+
+public class ExerciceBoucleBase {{
+	for (int nb = 0; nb <= 10; nb++) {
+		System.out.println(nb);
+	}
+}}

@@ -1,0 +1,25 @@
+package fr.boucles;
+
+import java.util.Iterator;
+
+public class ExerciceTableauEntier {
+	public static void main(String[] args) {
+		
+		int[] tab1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+		
+		// Afficher le premier élément
+		System.out.println(tab1[0]);
+		
+		// Afficher longueur
+		System.out.println(tab1.length);
+		
+		// Afficher dernier élément
+		for (int i = 1; i <= tab1.length; i++ ) {
+			if (i == 10) {
+				System.out.println("test" + tab1[i]);
+				i--;
+			}
+		}
+		
+	}
+}
